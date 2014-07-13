@@ -11,7 +11,7 @@ commands:
     xprate:
         aliases: [mcxprate]
         description: Modify the xp rate or start an event
-    mcmmo:
+    mcpemmo:
         description: Shows a brief mod description
     mctop:
         description: Show mcMMO leader boards
