@@ -2,6 +2,7 @@ mcpeMMO
 =====
 
 A port of the Bukkit plugin mcMMO to PocketMine. http://dev.bukkit.org/bukkit-plugins/mcmmo/
+This plugin is not finished yet or in a useable state whatsoever.
 
 
 mcpeMMO Features
