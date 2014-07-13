@@ -4,9 +4,8 @@ mcpeMMO
 A port of the Bukkit plugin mcMMO to PocketMine. http://dev.bukkit.org/bukkit-plugins/mcmmo/
 
 
-mcMMO Features
+mcpeMMO Features
 - Fully featured mmo-like party system
-- Localization
 - Robust Skills
 - Unique Skill Abilities
 - Skill Leaderboards
