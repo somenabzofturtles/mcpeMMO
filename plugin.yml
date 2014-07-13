@@ -1,8 +1,8 @@
 name: mcMMO
 version: 0.1
 api: [1.0.0]
-author: [Darunia18]
+author: [Darunia18, Hexdro, MegaSamNinja]
 description: A port of the Bukkit plugin mcMMO
-main: asdgasdg
+main: main\Main
 load: POSTWORLD
 website: N/A
