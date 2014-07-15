@@ -1,6 +1,6 @@
 <?php
 
-namespace PocketWeb;
+namespace Main;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
@@ -10,28 +10,29 @@ use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase{
     
-    public function onEnable() {
+    public function onEnable(){
         $this->getLogger()->info("mcpeMMO has been enabled.");
     }
 
     
-    public function onDisable() {
+    public function onDisable(){
         $this->getLogger()->info("McpeMMo has been disabled.");
     }
     
     public function onCommand(CommandSender $sender, Command $command, $label, array $args){
-	switch($command->getName()){ //get command
-		case "mcpemmo": //if command is /mcpemmo
-			if ($sender instanceof Player) { //if player, not console
-		            	$sender->sendMessage("MCPEMMO is a COOL PLUGIN"); //return message
-		            	return true; //return command success
+	switch($command->getName()){ 
+		case "mcpemmo":
+			if ($sender instanceof Player){
+		            	$sender->sendMessage("This plugin is still in the works");
+		            	return true;
 		            	break;
 			}
-	        else { //if not-player (if console)
-	        		$sender->sendMessage("Please run command in game."); //return message
-	        		return true; //return command success
-	        }
-	    default:
+	        	else{
+	        		$sender->sendMessage("Please run this command in-game.");
+	        		return true;
+	        		break;
+	        	}
+		default:
 		  	return false;
 	}
     }
