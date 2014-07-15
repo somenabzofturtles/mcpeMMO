@@ -1,11 +1,10 @@
 <?php
 
-namespace Main;
+namespace mcpeMMO;
 
 use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\Player;
-use pocketmine\utils\Config;
 use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase{
