@@ -7,6 +7,14 @@ use pocketmine\command\CommandSender;
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 
+use mcpeMMO\api\exceptions\InvalidPlayerException;
+use mcpeMMO\api\exceptions\InvalidSkillException;
+use mcpeMMO\api\exceptions\InvalidXPGainReasonException;
+use mcpeMMO\api\AbilityAPI;
+use mcpeMMO\api\ChatAPI;
+use mcpeMMO\api\ExperienceAPI;
+use mcpeMMO\api\PartyAPI;
+
 class Main extends PluginBase{
     
     public function onEnable(){
