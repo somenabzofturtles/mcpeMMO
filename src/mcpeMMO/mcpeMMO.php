@@ -7,6 +7,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 
+ 
 use mcpeMMO\api\exceptions\InvalidPlayerException;
 use mcpeMMO\api\exceptions\InvalidSkillException;
 use mcpeMMO\api\exceptions\InvalidXPGainReasonException;
@@ -14,6 +15,24 @@ use mcpeMMO\api\AbilityAPI;
 use mcpeMMO\api\ChatAPI;
 use mcpeMMO\api\ExperienceAPI;
 use mcpeMMO\api\PartyAPI;
+use mcpeMMO\chat\AdminChatManager; 
+use mcpeMMO\chat\ChatManager;
+use mcpeMMO\chat\ChatManagerFactory;
+use mcpeMMO\chat\PartyChatManager;
+use mcpeMMO\database\DatabaseManager;
+use mcpeMMO\database\DatabaseManagerFactory; 
+use mcpeMMO\database\FlatfileDatabaseManager;
+use mcpeMMO\database\SQLDatabaseManager;
+use mcpeMMO\listeners\BlockListener;
+use mcpeMMO\listeners\EntityListener;
+use mcpeMMO\listeners\InventoryListener;
+use mcpeMMO\listeners\PlayerListener;
+use mcpeMMO\listeners\SelfListener;
+use mcpeMMO\listeners\WorldListener;
+use mcpeMMO\metrics\MetricsManager;
+use mcpeMMO\party\PartyManager;
+use mcpeMMO\party\ShareHandler;
+use mcpeMMO\skills\SkillManager;
 
 class Main extends PluginBase{
     
