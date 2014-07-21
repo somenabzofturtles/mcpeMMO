@@ -7,7 +7,6 @@ This plugin is not finished yet or in a useable state whatsoever.
 
 mcpeMMO Features
 - Fully featured mmo-like party system
-- GodMode [DONE]
 - Robust Skills
 - Unique Skill Abilities
 - Skill Leaderboards
