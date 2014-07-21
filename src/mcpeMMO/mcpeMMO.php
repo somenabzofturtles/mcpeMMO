@@ -7,7 +7,7 @@ use pocketmine\command\CommandSender;
 use pocketmine\Player;
 use pocketmine\plugin\PluginBase;
 
- 
+use mcpeMMO\mcgod; 
 use mcpeMMO\api\exceptions\InvalidPlayerException;
 use mcpeMMO\api\exceptions\InvalidSkillException;
 use mcpeMMO\api\exceptions\InvalidXPGainReasonException;
