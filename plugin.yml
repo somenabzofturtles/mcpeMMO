@@ -8,47 +8,10 @@ main: main\Main
 load: STARTUP
 
 commands:
-    mcpemmo:
-        description: "Shows a brief mod description"
-        usage: "/mcpemmo"
-    mcgod:
-        description: "Toggles God mode for you or the specified player"
-        usage: "/god [player]"
-        permission: mcmmo.commands.mcgod
-permissions:
-    mcmmo.*:
-        default: false
-        description: Implies all mcmmo permissions.
-        children:
-            mcmmo.all: true
-    mcmmo.all:
-        default: false
-        description: Implies all mcmmo permissions.
-        children:
-            mcmmo.admin: true
-            mcmmo.bypass.all: true
-            mcmmo.commands.all: true
-            mcmmo.defaults: true
-            mcmmo.defaultsop: true
-            mcmmo.party.all: true
-            mcmmo.perks.all: true
-   mcmmo.commands.mcgod:
-        description: "Allows access to the mcgod command"
-        default: op   
-        children:
-   mcmmo.commands.mcgod.self:
-    description: "Allows the player to toggle God mode for themselves"
-    default: op
-   mcmmo.commands.mcgod.others:
-    description: "Allows the player to toggle God mode for others"
-    default: op
-
-/* Old Stuff */
-/* commands:
     xprate:
         aliases: [mcxprate]
         description: Modify the xp rate or start an event
-    mcmmo:
+    mcpemmo:
         description: Shows a brief mod description
     mctop:
         description: Show mcMMO leader boards
@@ -2026,5 +1989,3 @@ permissions:
     mcmmo.tools.updatecheck:
         default: false
         description: Notifies admins if there is a new version of mcMMO available
-        
-*/
