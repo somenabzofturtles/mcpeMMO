@@ -2,7 +2,7 @@ name: mcpeMMO
 version: 0.1
 api: [1.0.0]
 description: A port of the Bukkit plugin mcMMO
-author: [Darunia18, Hexdro, MegaSamNinja]
+author: [Darunia18, Hexdro]
 
 main: main\Main
 load: STARTUP
